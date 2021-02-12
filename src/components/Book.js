@@ -3,7 +3,8 @@ import React from "react"
 function Book(props)  {
     return (
         <div>
-           <p>{props.title.text}</p>
+           <h3>{props.title}</h3>
+           <p>{props.author}</p>
         </div>
     )
 }
