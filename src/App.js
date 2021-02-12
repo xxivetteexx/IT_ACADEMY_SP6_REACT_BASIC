@@ -1,8 +1,10 @@
-export default () => {
+import React from "react"
+import Book from "./components/Book"
 
+function App()  {
     return (
-        <div>
-            hello World!
-        </div>
-    );
-};
+       <Book />
+    )
+}
+
+export default App
